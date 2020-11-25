@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ryan Barrett HW1</title>
+    <%- include('partials/head.ejs') %>
+</head>
+<body>
+<header>
+    <h1>Logging</h1>
+</header>
+<hr>
+<%- include('partials/nav.ejs') %>
+<main>
+    <img id="centralized-logging" src="./img/centralized.png" alt="Picture of a computer"/>
+    <div id="text-container">
+        <p id="text">
+            Log data is irreplaceable for managing, maintaining, and debugging software. Common ways we use
+            log data in engineering departments are:
+            <br><br>
+        </p>
+        <ol>
+            <li>Monitoring systems to detect specific logs or events as well as noting patterns in log data</li>
+            <li>Monitoring in real-time for errors or unusual system behavior</li>
+            <li>Debugging environment, configuration or performance issues</li>
+            <li>Finding not only the error message but locating the origin or root cause of errors</li>
+        </ol>
+    </div>
+    <p>
+        <cite>An introduction to logging for programmers</cite> by Stefanos Vardalos.
+    </p>
+    <p>
+        <cite>https://www.freecodecamp.org/news/you-should-have-better-logging-now-fbab2f667fac/</cite>
+    </p>
+</main>
+<%- include('partials/footer.ejs') %>
+<%- include('partials/scripts.ejs') %>
+</body>
+</html>

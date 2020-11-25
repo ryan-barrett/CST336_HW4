@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ryan Barrett HW1</title>
+    <%- include('partials/head.ejs') %>
+</head>
+<body>
+<header>
+    <h1>Logging</h1>
+</header>
+<hr>
+<%- include('partials/nav.ejs') %>
+<main>
+    <img id="tree-logs" src="./img/tree-logs.jpg" alt="Picture of logs"/>
+    <div id="text-container">
+        <p id="text">
+            Log aggregation is using software to consolidate log data from applications as well as other systems
+            throughout
+            the stack to get the full picture of what is going on in a system.
+            <br><br>
+            Log aggregation software is also useful for normalizing log data across systems and performing analysis on
+            trends.
+            <br><br>
+            Log aggregation is a big piece of maintaining a modern system. This includes real time alerts for specific
+            logs we don't want to see.
+        </p>
+    </div>
+    <p>
+        <cite>Log Aggregation</cite> by SumoLogic.
+    </p>
+    <p>
+        <cite>https://www.sumologic.com/glossary/log-aggregation/</cite>
+    </p>
+</main>
+<%- include('partials/footer.ejs') %>
+<%- include('partials/scripts.ejs') %>
+</body>
+</html>

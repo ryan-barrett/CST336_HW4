@@ -1,0 +1,72 @@
+body {
+    background-color: RGBA(44, 46, 54, 1);
+    color: white;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+img {
+    box-shadow: 5px 10px RGBA(44, 46, 54, 1);
+}
+
+#logging-img {
+    margin: 2rem;
+}
+
+#tree-logs {
+    margin: 2rem;
+}
+
+#app-logging {
+    margin: 2rem;
+}
+
+#centralized-logging {
+    margin: 2rem;
+}
+
+#csumb-img {
+    margin: 2rem;
+}
+
+header, main, nav, footer {
+    text-align: center;
+}
+
+nav {
+    margin-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+nav a {
+    padding: 15px 15px 4px;
+    font-size: 1.9em;
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover {
+    border-bottom: 2px cyan solid;
+    font-size: 2em;
+    transition: .9s;
+}
+
+#text-container {
+    padding: 0rem 30rem 0rem;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+}
+
+#text {
+    text-align: left;
+}
+
+.current-page {
+    border-bottom: 2px cyan solid;
+}
+
+ol {
+    text-align: left;
+}
